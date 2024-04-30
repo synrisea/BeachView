@@ -2,6 +2,8 @@
 ### Problem Statement
 Suppose there is a beach with a row of houses of varying heights, located one behind the other. Given a list of the heights of these houses, you need to determine which houses have an ocean view and which do not. A house has an ocean view if its height is greater than all subsequent houses.
 
+![Image](https://github.com/synrisea/BeachView/blob/main/OIG4.jfif)
+
 ### Solution Outline
 To solve this problem, we traverse the list of house heights from the end to the beginning, tracking the maximum height encountered. A house has an ocean view if it is taller than the maximum height seen so far. We gather the indices of these houses and return them in ascending order.
 
